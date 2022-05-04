@@ -7,6 +7,7 @@ TagManager:
   - Fluid
   - Good
   - Bad
+  - Ground
   layers:
   - Default
   - TransparentFX
