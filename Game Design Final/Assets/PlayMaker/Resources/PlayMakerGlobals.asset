@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: PlayMakerGlobals
   m_EditorClassIdentifier: 
   variables:
-    floatVariables: []
+    floatVariables:
+    - useVariable: 1
+      name: CurrentTime
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 60
     intVariables:
     - useVariable: 1
       name: Score
@@ -22,7 +28,13 @@ MonoBehaviour:
       networkSync: 0
       value: 0
     boolVariables: []
-    stringVariables: []
+    stringVariables:
+    - useVariable: 1
+      name: GameTime
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
     vector2Variables: []
     vector3Variables: []
     colorVariables: []
@@ -36,5 +48,5 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000
+    variableCategoryIDs: 000000000000000000000000
   events: []
