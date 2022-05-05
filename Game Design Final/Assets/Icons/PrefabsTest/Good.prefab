@@ -138,8 +138,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 66
-        y: 132
+        x: 130
+        y: 196
         width: 128.4
         height: 48
       isBreakpoint: 0
@@ -158,7 +158,7 @@ MonoBehaviour:
           name: TOUCH GROUND
           isSystemEvent: 0
           isGlobal: 0
-        toState: Remove Score 2
+        toState: Self Delete
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -276,8 +276,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 261.20312
-        y: 112.57031
+        x: 395.2422
+        y: 111.171875
         width: 100
         height: 32
       isBreakpoint: 0
@@ -353,8 +353,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 294.20312
-        y: 209.82031
+        x: 358.20312
+        y: 273.8203
         width: 100
         height: 16
       isBreakpoint: 0
@@ -414,8 +414,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 65.89844
-        y: 226.5
+        x: 57.023438
+        y: 302.14844
         width: 134.8
         height: 48
       isBreakpoint: 0
@@ -505,8 +505,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 274.20312
-        y: 306.85156
+        x: 367.20312
+        y: 388.96094
         width: 103.6
         height: 32
       isBreakpoint: 0
@@ -591,6 +591,18 @@ MonoBehaviour:
       isSystemEvent: 0
       isGlobal: 0
     - name: SCORE ZERO
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: OneStar
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: NoStars
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: TwoStars
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ThreeStars
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions: []

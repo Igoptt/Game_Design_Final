@@ -337,8 +337,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 385.20312
-        y: 220.76562
+        x: 512
+        y: 224
         width: 115.6
         height: 32
       isBreakpoint: 0
@@ -507,6 +507,12 @@ MonoBehaviour:
     - name: LOOSE SCORE
       isSystemEvent: 0
       isGlobal: 0
+    - name: NoStars
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: OneStar
+      isSystemEvent: 0
+      isGlobal: 0
     - name: SCORE NOT ZERO
       isSystemEvent: 0
       isGlobal: 0
@@ -516,10 +522,22 @@ MonoBehaviour:
     - name: TOUCH GROUND
       isSystemEvent: 0
       isGlobal: 0
+    - name: ThreeStars
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: TwoStars
+      isSystemEvent: 0
+      isGlobal: 0
     globalTransitions: []
     variables:
       floatVariables: []
-      intVariables: []
+      intVariables:
+      - useVariable: 1
+        name: 
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
       boolVariables: []
       stringVariables: []
       vector2Variables: []
@@ -535,7 +553,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 
+      variableCategoryIDs: 00000000
     description: 
     docUrl: 
     showStateLabel: 0
