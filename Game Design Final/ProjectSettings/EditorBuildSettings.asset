@@ -17,12 +17,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CatchTheFood.unity
     guid: b672628e324ca3241a365a5a54159c72
-  - enabled: 1
-    path: Assets/Scenes/DragAndDrop.unity
-    guid: c476084cf9f4dd345af9478fb5ee9020
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Cooking.unity
     guid: 65e242ca19ce80246abe2fc4f590aef4
+  - enabled: 1
+    path: Assets/Scenes/DragAndDrop.unity
+    guid: d6071f8f3a20594458a634f54f0ae96a
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 1fe0a06ea4c73fa42afc31dc9957939e,
       type: 2}
