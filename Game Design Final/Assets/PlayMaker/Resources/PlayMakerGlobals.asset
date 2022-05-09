@@ -34,6 +34,14 @@ MonoBehaviour:
       networkSync: 0
       value: 0
     - useVariable: 1
+      name: Drag&DropScore
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    boolVariables: []
+    stringVariables:
+    - useVariable: 1
       name: Stars
       tooltip: 
       showInInspector: 0

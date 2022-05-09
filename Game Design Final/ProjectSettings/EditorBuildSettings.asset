@@ -6,9 +6,28 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/CatchTheFood.unity
-    guid: 6622f087d151e80479a94b85da8ef284
+    path: Assets/Scenes/Kitchen.unity
+    guid: 88d16376802b2894e880daca08cde9ac
   - enabled: 1
-    path: Assets/Scenes/Test.unity
-    guid: 454cc61cdc838784cbb7efa980083727
-  m_configObjects: {}
+    path: Assets/Scenes/OrganizeTheFood.unity
+    guid: 94bb95a07062ede4190294b221839319
+  - enabled: 1
+    path: Assets/Scenes/FruitNinja.unity
+    guid: ba4682c701952a9469195fba62afdd1c
+  - enabled: 1
+    path: Assets/Scenes/CatchTheFood.unity
+    guid: b672628e324ca3241a365a5a54159c72
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Cooking.unity
+    guid: 65e242ca19ce80246abe2fc4f590aef4
+  - enabled: 1
+    path: Assets/Scenes/DragAndDrop.unity
+    guid: d6071f8f3a20594458a634f54f0ae96a
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 1fe0a06ea4c73fa42afc31dc9957939e,
+      type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
+      guid: 1a5f223221de1cd40a43cb3f68a45d84, type: 2}
