@@ -176,7 +176,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3e30b7c895e7d254bb6e6af58e0abb7a, type: 2}
+  - {fileID: 2100000, guid: 6f599e393c694dd469b4c8a710d719dc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -383,27 +383,27 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 6f599e393c694dd469b4c8a710d719dc, type: 2}
     - target: {fileID: 23343382305958824, guid: 31264236aa69f49fba6ca492242bd217,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 6f599e393c694dd469b4c8a710d719dc, type: 2}
     - target: {fileID: 23632524149722866, guid: 31264236aa69f49fba6ca492242bd217,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 6f599e393c694dd469b4c8a710d719dc, type: 2}
     - target: {fileID: 23640064888072010, guid: 31264236aa69f49fba6ca492242bd217,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 6f599e393c694dd469b4c8a710d719dc, type: 2}
     - target: {fileID: 23886879184355944, guid: 31264236aa69f49fba6ca492242bd217,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 801bb462ac76a434f9dcd314ac24e82b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31264236aa69f49fba6ca492242bd217, type: 3}
 --- !u!1 &31873043
@@ -416,6 +416,7 @@ GameObject:
   m_Component:
   - component: {fileID: 31873045}
   - component: {fileID: 31873044}
+  - component: {fileID: 31873046}
   m_Layer: 0
   m_Name: Spot Light
   m_TagString: Untagged
@@ -500,6 +501,26 @@ Transform:
   m_Father: {fileID: 917240457}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &31873046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31873043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &41997815
 GameObject:
   m_ObjectHideFlags: 0
@@ -1189,17 +1210,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 801bb462ac76a434f9dcd314ac24e82b, type: 2}
     - target: {fileID: 23821910733937644, guid: b8c3087888fc448acb63e643fea215d3,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 6f599e393c694dd469b4c8a710d719dc, type: 2}
     - target: {fileID: 23895640537267596, guid: b8c3087888fc448acb63e643fea215d3,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 6f599e393c694dd469b4c8a710d719dc, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8c3087888fc448acb63e643fea215d3, type: 3}
 --- !u!1 &150967909 stripped
@@ -1567,6 +1588,7 @@ GameObject:
   m_Component:
   - component: {fileID: 159944818}
   - component: {fileID: 159944819}
+  - component: {fileID: 159944820}
   m_Layer: 0
   m_Name: Spot Light
   m_TagString: Untagged
@@ -1651,6 +1673,26 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &159944820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159944817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &202943666
 GameObject:
   m_ObjectHideFlags: 0
@@ -1703,7 +1745,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3d6f1177c60bc10459dabb5e11eb5fa8, type: 2}
+  - {fileID: 2100000, guid: a2edf266f25570a4ca91845328a1265e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2425,27 +2467,27 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 6f599e393c694dd469b4c8a710d719dc, type: 2}
     - target: {fileID: 23343382305958824, guid: 31264236aa69f49fba6ca492242bd217,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 6f599e393c694dd469b4c8a710d719dc, type: 2}
     - target: {fileID: 23632524149722866, guid: 31264236aa69f49fba6ca492242bd217,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 6f599e393c694dd469b4c8a710d719dc, type: 2}
     - target: {fileID: 23640064888072010, guid: 31264236aa69f49fba6ca492242bd217,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 6f599e393c694dd469b4c8a710d719dc, type: 2}
     - target: {fileID: 23886879184355944, guid: 31264236aa69f49fba6ca492242bd217,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 801bb462ac76a434f9dcd314ac24e82b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31264236aa69f49fba6ca492242bd217, type: 3}
 --- !u!4 &364271519 stripped
@@ -3212,6 +3254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 518990553}
   - component: {fileID: 518990554}
+  - component: {fileID: 518990555}
   m_Layer: 0
   m_Name: Spot Light
   m_TagString: Untagged
@@ -3296,6 +3339,26 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &518990555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518990552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1001 &532658278
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3359,7 +3422,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 801bb462ac76a434f9dcd314ac24e82b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c04cf954647e43589c56b0df4058564, type: 3}
 --- !u!1 &540799650
@@ -3415,7 +3478,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c04e943cb2512e44881593e3ba9c394c, type: 2}
+  - {fileID: 2100000, guid: 69cc12a77690846bd94466103faaa307, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4559,6 +4622,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705507995}
   - component: {fileID: 705507994}
+  - component: {fileID: 705507996}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -4643,6 +4707,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 14.33, y: 109.768, z: -56.968}
+--- !u!114 &705507996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &731418893
 GameObject:
   m_ObjectHideFlags: 0
@@ -4695,7 +4779,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5059faab4833fe54dbba890940e28563, type: 2}
+  - {fileID: 2100000, guid: a2edf266f25570a4ca91845328a1265e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5839,7 +5923,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 801bb462ac76a434f9dcd314ac24e82b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c04cf954647e43589c56b0df4058564, type: 3}
 --- !u!1 &852187306
@@ -6062,17 +6146,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 6f599e393c694dd469b4c8a710d719dc, type: 2}
     - target: {fileID: 23862228482909938, guid: af9cdd9ba10234507875bb32ff50333b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 801bb462ac76a434f9dcd314ac24e82b, type: 2}
     - target: {fileID: 23987417854283656, guid: af9cdd9ba10234507875bb32ff50333b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 6f599e393c694dd469b4c8a710d719dc, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af9cdd9ba10234507875bb32ff50333b, type: 3}
 --- !u!4 &909355418 stripped
@@ -6385,7 +6469,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5059faab4833fe54dbba890940e28563, type: 2}
+  - {fileID: 2100000, guid: a2edf266f25570a4ca91845328a1265e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9176,7 +9260,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3d6f1177c60bc10459dabb5e11eb5fa8, type: 2}
+  - {fileID: 2100000, guid: a2edf266f25570a4ca91845328a1265e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9356,7 +9440,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5059faab4833fe54dbba890940e28563, type: 2}
+  - {fileID: 2100000, guid: a2edf266f25570a4ca91845328a1265e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10430,17 +10514,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 801bb462ac76a434f9dcd314ac24e82b, type: 2}
     - target: {fileID: 23821910733937644, guid: b8c3087888fc448acb63e643fea215d3,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 6f599e393c694dd469b4c8a710d719dc, type: 2}
     - target: {fileID: 23895640537267596, guid: b8c3087888fc448acb63e643fea215d3,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 6f599e393c694dd469b4c8a710d719dc, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8c3087888fc448acb63e643fea215d3, type: 3}
 --- !u!1001 &1506701922
@@ -10518,17 +10602,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 6f599e393c694dd469b4c8a710d719dc, type: 2}
     - target: {fileID: 23862228482909938, guid: af9cdd9ba10234507875bb32ff50333b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 801bb462ac76a434f9dcd314ac24e82b, type: 2}
     - target: {fileID: 23987417854283656, guid: af9cdd9ba10234507875bb32ff50333b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 6f599e393c694dd469b4c8a710d719dc, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af9cdd9ba10234507875bb32ff50333b, type: 3}
 --- !u!1001 &1529077354
@@ -10618,6 +10702,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1541273620}
   - component: {fileID: 1541273621}
+  - component: {fileID: 1541273622}
   m_Layer: 0
   m_Name: Spot Light
   m_TagString: Untagged
@@ -10702,6 +10787,26 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1541273622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541273619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1001 &1570005915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11455,17 +11560,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 6f599e393c694dd469b4c8a710d719dc, type: 2}
     - target: {fileID: 23862228482909938, guid: af9cdd9ba10234507875bb32ff50333b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 801bb462ac76a434f9dcd314ac24e82b, type: 2}
     - target: {fileID: 23987417854283656, guid: af9cdd9ba10234507875bb32ff50333b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f53c295f77e28f4bb46c1f6bb8dd5a5, type: 2}
+      objectReference: {fileID: 2100000, guid: 6f599e393c694dd469b4c8a710d719dc, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af9cdd9ba10234507875bb32ff50333b, type: 3}
 --- !u!1 &1779504300
@@ -11520,7 +11625,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3d6f1177c60bc10459dabb5e11eb5fa8, type: 2}
+  - {fileID: 2100000, guid: a2edf266f25570a4ca91845328a1265e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14150,7 +14255,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5059faab4833fe54dbba890940e28563, type: 2}
+  - {fileID: 2100000, guid: a2edf266f25570a4ca91845328a1265e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14188,7 +14293,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093518570}
   m_LocalRotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -12.183407, y: 0.4873716, z: -0.1609097}
+  m_LocalPosition: {x: -12.183407, y: 0.4873716, z: -0.1623}
   m_LocalScale: {x: 0.0134978, y: 11.497771, z: 0.59815764}
   m_ConstrainProportionsScale: 0
   m_Children: []
