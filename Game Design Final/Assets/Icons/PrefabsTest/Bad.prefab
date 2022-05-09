@@ -379,7 +379,7 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams:
         - useVariable: 1
-          name: Score
+          name: CatchTheFoodScore
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -464,7 +464,7 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams:
         - useVariable: 1
-          name: Score
+          name: CatchTheFoodScore
           tooltip: 
           showInInspector: 0
           networkSync: 0

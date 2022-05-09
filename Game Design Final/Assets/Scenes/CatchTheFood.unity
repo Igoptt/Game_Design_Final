@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -381,7 +381,7 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams:
         - useVariable: 1
-          name: Score
+          name: CatchTheFoodScore
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -639,7 +639,7 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams:
         - useVariable: 1
-          name: Score
+          name: CatchTheFoodScore
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -651,7 +651,7 @@ MonoBehaviour:
           networkSync: 0
           value: 5
         - useVariable: 1
-          name: Score
+          name: CatchTheFoodScore
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -663,7 +663,7 @@ MonoBehaviour:
           networkSync: 0
           value: 10
         - useVariable: 1
-          name: Score
+          name: CatchTheFoodScore
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -764,7 +764,7 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams:
         - useVariable: 1
-          name: Stars
+          name: CatchTheFoodStars
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -841,7 +841,7 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams:
         - useVariable: 1
-          name: Stars
+          name: CatchTheFoodStars
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -918,7 +918,7 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams:
         - useVariable: 1
-          name: Stars
+          name: CatchTheFoodStars
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -995,7 +995,7 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams:
         - useVariable: 1
-          name: Stars
+          name: CatchTheFoodStars
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -1072,7 +1072,7 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams:
         - useVariable: 1
-          name: Score
+          name: CatchTheFoodScore
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -1351,13 +1351,15 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 1632398634467439674, guid: 47fd2b9d0a81f4d4ab54b20e24d988e5, type: 3}
+          value: {fileID: 1632398634467439674, guid: 47fd2b9d0a81f4d4ab54b20e24d988e5,
+            type: 3}
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 3777564748812470622, guid: db375548930a07b469b7f9467a8f0eeb, type: 3}
+          value: {fileID: 3777564748812470622, guid: db375548930a07b469b7f9467a8f0eeb,
+            type: 3}
         - useVariable: 1
           name: RandomObject
           tooltip: 
@@ -2524,8 +2526,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 364.64062
-        y: 261.82812
+        x: 361.64062
+        y: 265.82812
         width: 102.8
         height: 32
       isBreakpoint: 0
@@ -3241,7 +3243,7 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams:
         - useVariable: 1
-          name: Stars
+          name: CatchTheFoodStars
           tooltip: 
           showInInspector: 0
           networkSync: 0
