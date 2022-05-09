@@ -4,13 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - GameManager
-  - Gold
-  - DeathPlane
-  - CharacterSelectController
-  - UIManager
-  - Plane
-  - Cloud
+  - Fluid
+  - Good
+  - Bad
+  - Ground
+  - Wall
+  - RightWall
+  - LeftWall
   layers:
   - Default
   - TransparentFX
@@ -20,7 +20,7 @@ TagManager:
   - UI
   - 
   - 
-  - Plane
+  - 
   - 
   - 
   - 
