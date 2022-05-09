@@ -12327,7 +12327,7 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams:
         - useVariable: 1
-          name: Drag&DropScore
+          name: HighScoreDragAndDrop
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -12339,7 +12339,7 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: Drag&DropScore
+          name: HighScoreDragAndDrop
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -12351,7 +12351,7 @@ MonoBehaviour:
           networkSync: 0
           value: 5
         - useVariable: 1
-          name: Drag&DropScore
+          name: HighScoreDragAndDrop
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -12363,7 +12363,7 @@ MonoBehaviour:
           networkSync: 0
           value: 10
         - useVariable: 1
-          name: Drag&DropScore
+          name: HighScoreDragAndDrop
           tooltip: 
           showInInspector: 0
           networkSync: 0
