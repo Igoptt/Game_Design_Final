@@ -11,6 +11,17 @@ TagManager:
   - Wall
   - RightWall
   - LeftWall
+  - Gold
+  - Cloud
+  - Trash
+  - Meat
+  - Vegetable
+  - Cheese
+  - Fruit
+  - Butter
+  - Milk
+  - Beverage
+  - Yogurt
   layers:
   - Default
   - TransparentFX
