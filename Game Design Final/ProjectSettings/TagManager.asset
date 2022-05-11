@@ -22,6 +22,15 @@ TagManager:
   - Milk
   - Beverage
   - Yogurt
+  - FruitShelf
+  - Lacticinios
+  - Vegetables
+  - Drinks
+  - LacticiniosShelf
+  - VegetablesShelf
+  - DrinksShelf
+  - MeatShelf
+  - CheeseColider
   layers:
   - Default
   - TransparentFX
