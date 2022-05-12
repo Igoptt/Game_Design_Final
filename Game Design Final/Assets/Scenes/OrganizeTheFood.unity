@@ -981,9 +981,9 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: FSM
-    startState: State 1
+    startState: Click?
     states:
-    - name: State 1
+    - name: Click?
       description: 
       colorIndex: 0
       position:
@@ -1000,7 +1000,7 @@ MonoBehaviour:
           name: click
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 2
+        toState: Clicked
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -1056,7 +1056,7 @@ MonoBehaviour:
         - inUpdateOnly
         paramDataPos: 00000000000000000000000004000000
         paramByteDataSize: 04000000000000000000000001000000
-    - name: State 2
+    - name: Clicked
       description: 
       colorIndex: 0
       position:
@@ -1073,7 +1073,7 @@ MonoBehaviour:
           name: skip
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 1
+        toState: Click?
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -1081,7 +1081,7 @@ MonoBehaviour:
           name: drag
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 3
+        toState: Dragging
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -1215,7 +1215,7 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 00000000000000000000000000000000010000000100000000000000000000000100000000000000000000000100000000000000010000000200000001000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000
-    - name: State 3
+    - name: Dragging
       description: 
       colorIndex: 0
       position:
@@ -1232,7 +1232,7 @@ MonoBehaviour:
           name: click
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 4
+        toState: Mouse Button Up
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -1391,14 +1391,14 @@ MonoBehaviour:
         - inUpdateOnly
         paramDataPos: 0000000000000000000000000000000001000000010000000000000000000000010000000000000000000000020000000200000003000000040000000100000005000000060000000700000000000000020000000b000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000004000000010000000100000004000000000000000000000001000000
-    - name: State 4
+    - name: Mouse Button Up
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 154.02344
         y: 331.54688
-        width: 100
+        width: 132.4
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -1408,7 +1408,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: State 1
+        toState: Click?
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -1704,10 +1704,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1890864606}
   - {fileID: 2124936973}
   - {fileID: 794193729}
   - {fileID: 1692453028}
-  - {fileID: 1890864606}
   - {fileID: 302540060}
   - {fileID: 185077434}
   - {fileID: 2120041396}
@@ -1830,9 +1830,9 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: FSM
-    startState: State 1
+    startState: Click?
     states:
-    - name: State 1
+    - name: Click?
       description: 
       colorIndex: 0
       position:
@@ -1849,7 +1849,7 @@ MonoBehaviour:
           name: click
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 2
+        toState: Clicked
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -1905,7 +1905,7 @@ MonoBehaviour:
         - inUpdateOnly
         paramDataPos: 00000000000000000000000004000000
         paramByteDataSize: 04000000000000000000000001000000
-    - name: State 2
+    - name: Clicked
       description: 
       colorIndex: 0
       position:
@@ -1922,7 +1922,7 @@ MonoBehaviour:
           name: skip
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 1
+        toState: Click?
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -1930,7 +1930,7 @@ MonoBehaviour:
           name: drag
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 3
+        toState: Dragging
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -2064,7 +2064,7 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 00000000000000000000000000000000010000000100000000000000000000000100000000000000000000000100000000000000010000000200000001000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000
-    - name: State 3
+    - name: Dragging
       description: 
       colorIndex: 0
       position:
@@ -2081,7 +2081,7 @@ MonoBehaviour:
           name: click
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 4
+        toState: Mouse Button Up
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -2240,14 +2240,14 @@ MonoBehaviour:
         - inUpdateOnly
         paramDataPos: 0000000000000000000000000000000001000000010000000000000000000000010000000000000000000000020000000200000003000000040000000100000005000000060000000700000000000000020000000b000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000004000000010000000100000004000000000000000000000001000000
-    - name: State 4
+    - name: Mouse Button Up
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 154.02344
         y: 331.54688
-        width: 100
+        width: 132.4
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -2257,7 +2257,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: State 1
+        toState: Click?
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -3819,7 +3819,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 222166116}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &794193730
 BoxCollider:
@@ -3900,15 +3900,15 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: FSM
-    startState: State 1
+    startState: Click?
     states:
-    - name: State 1
+    - name: Click?
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 294
-        y: 216
+        x: 230
+        y: 120
         width: 100
         height: 32
       isBreakpoint: 0
@@ -3919,7 +3919,7 @@ MonoBehaviour:
           name: click
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 2
+        toState: Clicked
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -3975,13 +3975,13 @@ MonoBehaviour:
         - inUpdateOnly
         paramDataPos: 00000000000000000000000004000000
         paramByteDataSize: 04000000000000000000000001000000
-    - name: State 2
+    - name: Clicked
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 500.4375
-        y: 204.20312
+        x: 436.4375
+        y: 108.203125
         width: 100
         height: 48
       isBreakpoint: 0
@@ -3992,7 +3992,7 @@ MonoBehaviour:
           name: skip
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 1
+        toState: Click?
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -4000,7 +4000,7 @@ MonoBehaviour:
           name: drag
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 3
+        toState: Dragging
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -4134,13 +4134,13 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 00000000000000000000000000000000010000000100000000000000000000000100000000000000000000000100000000000000010000000200000001000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000
-    - name: State 3
+    - name: Dragging
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 517.5625
-        y: 327.4375
+        x: 453.5625
+        y: 231.4375
         width: 100
         height: 32
       isBreakpoint: 0
@@ -4151,7 +4151,7 @@ MonoBehaviour:
           name: click
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 4
+        toState: Mouse Button Up
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -4310,14 +4310,14 @@ MonoBehaviour:
         - inUpdateOnly
         paramDataPos: 0000000000000000000000000000000001000000010000000000000000000000010000000000000000000000020000000200000003000000040000000100000005000000060000000700000000000000020000000b000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000004000000010000000100000004000000000000000000000001000000
-    - name: State 4
+    - name: Mouse Button Up
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 154.02344
-        y: 331.54688
-        width: 100
+        x: 53.023438
+        y: 232.53906
+        width: 132.4
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -4327,7 +4327,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: State 1
+        toState: Click?
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -5499,6 +5499,16 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 51f531fa952a78745907c11187860ccb,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -681667656727170516, guid: 51f531fa952a78745907c11187860ccb,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -681667656727170516, guid: 51f531fa952a78745907c11187860ccb,
+        type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -681667656727170516, guid: 51f531fa952a78745907c11187860ccb,
@@ -7014,7 +7024,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 222166116}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1692453029
 BoxCollider:
@@ -7095,15 +7105,15 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: FSM
-    startState: State 1
+    startState: Click?
     states:
-    - name: State 1
+    - name: Click?
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 294
-        y: 216
+        x: 230
+        y: 120
         width: 100
         height: 32
       isBreakpoint: 0
@@ -7114,7 +7124,7 @@ MonoBehaviour:
           name: click
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 2
+        toState: Clicked
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -7170,13 +7180,13 @@ MonoBehaviour:
         - inUpdateOnly
         paramDataPos: 00000000000000000000000004000000
         paramByteDataSize: 04000000000000000000000001000000
-    - name: State 2
+    - name: Clicked
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 500.4375
-        y: 204.20312
+        x: 436.4375
+        y: 108.203125
         width: 100
         height: 48
       isBreakpoint: 0
@@ -7187,7 +7197,7 @@ MonoBehaviour:
           name: skip
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 1
+        toState: Click?
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -7195,7 +7205,7 @@ MonoBehaviour:
           name: drag
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 3
+        toState: Dragging
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -7329,13 +7339,13 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 00000000000000000000000000000000010000000100000000000000000000000100000000000000000000000100000000000000010000000200000001000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000
-    - name: State 3
+    - name: Dragging
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 517.5625
-        y: 327.4375
+        x: 453.5625
+        y: 231.4375
         width: 100
         height: 32
       isBreakpoint: 0
@@ -7346,7 +7356,7 @@ MonoBehaviour:
           name: click
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 4
+        toState: Mouse Button Up
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -7505,14 +7515,14 @@ MonoBehaviour:
         - inUpdateOnly
         paramDataPos: 0000000000000000000000000000000001000000010000000000000000000000010000000000000000000000020000000200000003000000040000000100000005000000060000000700000000000000020000000b000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000004000000010000000100000004000000000000000000000001000000
-    - name: State 4
+    - name: Mouse Button Up
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 154.02344
-        y: 331.54688
-        width: 100
+        x: 61.023438
+        y: 234.53906
+        width: 132.4
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -7522,7 +7532,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: State 1
+        toState: Click?
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -7764,7 +7774,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 222166116}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1890864607
 BoxCollider:
@@ -7845,9 +7855,9 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: FSM
-    startState: State 1
+    startState: Click?
     states:
-    - name: State 1
+    - name: Click?
       description: 
       colorIndex: 0
       position:
@@ -7864,7 +7874,7 @@ MonoBehaviour:
           name: click
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 2
+        toState: Clicked
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -7920,7 +7930,7 @@ MonoBehaviour:
         - inUpdateOnly
         paramDataPos: 00000000000000000000000004000000
         paramByteDataSize: 04000000000000000000000001000000
-    - name: State 2
+    - name: Clicked
       description: 
       colorIndex: 0
       position:
@@ -7937,7 +7947,7 @@ MonoBehaviour:
           name: skip
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 1
+        toState: Click?
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -7945,7 +7955,7 @@ MonoBehaviour:
           name: drag
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 3
+        toState: Dragging
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -8079,7 +8089,7 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 00000000000000000000000000000000010000000100000000000000000000000100000000000000000000000100000000000000010000000200000001000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000
-    - name: State 3
+    - name: Dragging
       description: 
       colorIndex: 0
       position:
@@ -8096,7 +8106,7 @@ MonoBehaviour:
           name: click
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 4
+        toState: Mouse Button Up
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -8255,14 +8265,14 @@ MonoBehaviour:
         - inUpdateOnly
         paramDataPos: 0000000000000000000000000000000001000000010000000000000000000000010000000000000000000000020000000200000003000000040000000100000005000000060000000700000000000000020000000b000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000004000000010000000100000004000000000000000000000001000000
-    - name: State 4
+    - name: Mouse Button Up
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 54.023438
         y: 231.54688
-        width: 100
+        width: 132.4
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -8272,7 +8282,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: State 1
+        toState: Click?
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -8655,9 +8665,9 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: FSM
-    startState: State 1
+    startState: Click?
     states:
-    - name: State 1
+    - name: Click?
       description: 
       colorIndex: 0
       position:
@@ -8674,7 +8684,7 @@ MonoBehaviour:
           name: click
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 2
+        toState: Clicked
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -8730,7 +8740,7 @@ MonoBehaviour:
         - inUpdateOnly
         paramDataPos: 00000000000000000000000004000000
         paramByteDataSize: 04000000000000000000000001000000
-    - name: State 2
+    - name: Clicked
       description: 
       colorIndex: 0
       position:
@@ -8747,7 +8757,7 @@ MonoBehaviour:
           name: skip
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 1
+        toState: Click?
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -8755,7 +8765,7 @@ MonoBehaviour:
           name: drag
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 3
+        toState: Dragging
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -8889,7 +8899,7 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 00000000000000000000000000000000010000000100000000000000000000000100000000000000000000000100000000000000010000000200000001000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000
-    - name: State 3
+    - name: Dragging
       description: 
       colorIndex: 0
       position:
@@ -8906,7 +8916,7 @@ MonoBehaviour:
           name: click
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 4
+        toState: Mouse Button Up
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -9065,14 +9075,14 @@ MonoBehaviour:
         - inUpdateOnly
         paramDataPos: 0000000000000000000000000000000001000000010000000000000000000000010000000000000000000000020000000200000003000000040000000100000005000000060000000700000000000000020000000b000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000004000000010000000100000004000000000000000000000001000000
-    - name: State 4
+    - name: Mouse Button Up
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 154.02344
         y: 331.54688
-        width: 100
+        width: 132.4
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -9082,7 +9092,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: State 1
+        toState: Click?
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -9659,9 +9669,9 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: FSM
-    startState: State 1
+    startState: Click?
     states:
-    - name: State 1
+    - name: Click?
       description: 
       colorIndex: 0
       position:
@@ -9678,7 +9688,7 @@ MonoBehaviour:
           name: click
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 2
+        toState: Clicked
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -9734,7 +9744,7 @@ MonoBehaviour:
         - inUpdateOnly
         paramDataPos: 00000000000000000000000004000000
         paramByteDataSize: 04000000000000000000000001000000
-    - name: State 2
+    - name: Clicked
       description: 
       colorIndex: 0
       position:
@@ -9751,7 +9761,7 @@ MonoBehaviour:
           name: skip
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 1
+        toState: Click?
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -9759,7 +9769,7 @@ MonoBehaviour:
           name: drag
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 3
+        toState: Dragging
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -9893,7 +9903,7 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 00000000000000000000000000000000010000000100000000000000000000000100000000000000000000000100000000000000010000000200000001000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000
-    - name: State 3
+    - name: Dragging
       description: 
       colorIndex: 0
       position:
@@ -9910,7 +9920,7 @@ MonoBehaviour:
           name: click
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 4
+        toState: Mouse Button Up
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -10069,14 +10079,14 @@ MonoBehaviour:
         - inUpdateOnly
         paramDataPos: 0000000000000000000000000000000001000000010000000000000000000000010000000000000000000000020000000200000003000000040000000100000005000000060000000700000000000000020000000b000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000004000000010000000100000004000000000000000000000001000000
-    - name: State 4
+    - name: Mouse Button Up
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 154.02344
         y: 331.54688
-        width: 100
+        width: 132.4
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -10086,7 +10096,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: State 1
+        toState: Click?
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -10291,7 +10301,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 222166116}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2124936974
 BoxCollider:
@@ -10372,15 +10382,15 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: FSM
-    startState: State 1
+    startState: Click?
     states:
-    - name: State 1
+    - name: Click?
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 182
-        y: 120
+        x: 71
+        y: 111.99219
         width: 100
         height: 32
       isBreakpoint: 0
@@ -10391,7 +10401,7 @@ MonoBehaviour:
           name: click
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 2
+        toState: Clicked
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -10447,13 +10457,13 @@ MonoBehaviour:
         - inUpdateOnly
         paramDataPos: 00000000000000000000000004000000
         paramByteDataSize: 04000000000000000000000001000000
-    - name: State 2
+    - name: Clicked
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 388.4375
-        y: 108.203125
+        x: 314.4375
+        y: 105.19531
         width: 100
         height: 48
       isBreakpoint: 0
@@ -10464,7 +10474,7 @@ MonoBehaviour:
           name: skip
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 1
+        toState: Click?
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -10472,7 +10482,7 @@ MonoBehaviour:
           name: drag
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 3
+        toState: Dragging
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -10606,12 +10616,12 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 00000000000000000000000000000000010000000100000000000000000000000100000000000000000000000100000000000000010000000200000001000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000
-    - name: State 3
+    - name: Dragging
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 405.5625
+        x: 309.5625
         y: 231.4375
         width: 100
         height: 32
@@ -10623,7 +10633,7 @@ MonoBehaviour:
           name: click
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 4
+        toState: Mouse Button Up
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -10782,14 +10792,14 @@ MonoBehaviour:
         - inUpdateOnly
         paramDataPos: 0000000000000000000000000000000001000000010000000000000000000000010000000000000000000000020000000200000003000000040000000100000005000000060000000700000000000000020000000b000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000004000000010000000100000004000000000000000000000001000000
-    - name: State 4
+    - name: Mouse Button Up
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 60.023438
-        y: 235.53906
-        width: 100
+        y: 236.5
+        width: 132.4
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -10799,7 +10809,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: State 1
+        toState: Click?
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
