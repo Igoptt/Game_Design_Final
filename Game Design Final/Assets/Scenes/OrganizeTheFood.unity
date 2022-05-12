@@ -6881,14 +6881,16 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetIntValue
+        - HutongGames.PlayMaker.Actions.SetIntValue
         - HutongGames.PlayMaker.Actions.RestartLevel
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000003000000
-        actionHashCodes: 603dd90500000000
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000300000006000000
+        actionHashCodes: 603dd905603dd90500000000
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -6917,6 +6919,18 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 3
+        - useVariable: 1
+          name: ObjectsPlaced
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -6924,18 +6938,21 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 00
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 100000001000000001000000
+        paramDataType: 100000001000000001000000100000001000000001000000
         paramName:
         - intVariable
         - intValue
         - everyFrame
-        paramDataPos: 000000000100000000000000
-        paramByteDataSize: 000000000000000001000000
+        - intVariable
+        - intValue
+        - everyFrame
+        paramDataPos: 000000000100000000000000020000000300000001000000
+        paramByteDataSize: 000000000000000001000000000000000000000001000000
     events:
     - name: RESETGAME
       isSystemEvent: 0
@@ -7657,13 +7674,17 @@ MonoBehaviour:
       transitions: []
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.SetIntValue
+        - HutongGames.PlayMaker.Actions.SetIntValue
         - HutongGames.PlayMaker.Actions.LoadScene
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 20a9b100
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000300000006000000
+        actionHashCodes: 603dd905603dd90520a9b100
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -7693,6 +7714,30 @@ MonoBehaviour:
           intValue: 0
         fsmFloatParams: []
         fsmIntParams:
+        - useVariable: 1
+          name: OrganizeFoodScore
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: OrganizeFoodLifes
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 3
+        - useVariable: 1
+          name: ObjectsPlaced
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         - useVariable: 0
           name: 
           tooltip: 
@@ -7714,13 +7759,19 @@ MonoBehaviour:
         stringParams:
         - 
         - 
-        byteData: 00000000
+        byteData: 000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0700000012000000100000002a000000110000001700000017000000
+        paramDataType: 1000000010000000010000001000000010000000010000000700000012000000100000002a000000110000001700000017000000
         paramName:
+        - intVariable
+        - intValue
+        - everyFrame
+        - intVariable
+        - intValue
+        - everyFrame
         - sceneReference
         - sceneByName
         - sceneAtIndex
@@ -7728,8 +7779,8 @@ MonoBehaviour:
         - success
         - successEvent
         - failureEvent
-        paramDataPos: 00000000000000000000000000000000000000000000000001000000
-        paramByteDataSize: 04000000000000000000000000000000000000000000000000000000
+        paramDataPos: 00000000010000000000000002000000030000000100000002000000000000000400000000000000000000000000000001000000
+        paramByteDataSize: 00000000000000000100000000000000000000000100000004000000000000000000000000000000000000000000000000000000
     events:
     - name: WinGame
       isSystemEvent: 0
