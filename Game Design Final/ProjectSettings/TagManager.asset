@@ -18,6 +18,7 @@ TagManager:
   - Hamburger
   - Watermelon
   - Mushroom
+  - Carrot
   layers:
   - Default
   - TransparentFX
