@@ -6,19 +6,21 @@ TagManager:
   tags:
   - Fluid
   - Trash
-  - Vegetable
-  - Fruit
-  - Yogurt
-  - FruitShelf
-  - DrinksShelf
-  - MeatShelf
   - CheeseColider
-  - Candy
-  - Cake
-  - Hamburger
-  - Watermelon
-  - Mushroom
   - Carrot
+  - Cherries
+  - Juice
+  - Peanuts
+  - Blackberries
+  - Cheese
+  - Yogurt
+  - Butter
+  - Meat
+  - Egg
+  - Chicken
+  - Capsicum
+  - Banana
+  - Lemon
   layers:
   - Default
   - TransparentFX
