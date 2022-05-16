@@ -59,18 +59,21 @@ MonoBehaviour:
       value: 3
     - useVariable: 1
       name: ObjectsPlaced
+      name: HighScoreFruitNinja
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: 0
     - useVariable: 1
       name: OrganizeFoodScore
+      name: FruitNinjaScore
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: 0
     - useVariable: 1
       name: ObjectsCorrectlyPlaced
+      name: NinjaHiScore
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -108,5 +111,5 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   events: []
