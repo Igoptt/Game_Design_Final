@@ -142,7 +142,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           typeName: 
-          value: {fileID: 0}
+          value: {fileID: 2100000, guid: 53122f49a4909e643b53a64f5ef6848e, type: 2}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
@@ -175,7 +175,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {r: 1, g: 1, b: 1, a: 0}
+          value: {r: 1, g: 1, b: 1, a: 0.09803922}
         - useVariable: 0
           name: 
           tooltip: 
@@ -212,12 +212,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: {r: 1, g: 1, b: 1, a: 0.14117648}
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: SetColorBad
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {r: 1, g: 1, b: 1, a: 0.043137256}
+          value: {r: 1, g: 1, b: 1, a: 1}
         - useVariable: 1
           name: SetColorBad
           tooltip: 
