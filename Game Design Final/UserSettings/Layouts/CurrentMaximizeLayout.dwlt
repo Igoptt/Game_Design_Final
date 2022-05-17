@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 7412
+  controlID: 8458
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -75,16 +75,16 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -320
-    m_HBaseRangeMax: 320
-    m_VBaseRangeMin: -192
-    m_VBaseRangeMax: 192
+    m_HBaseRangeMin: -300.32
+    m_HBaseRangeMax: 300.32
+    m_VBaseRangeMin: -285.76
+    m_VBaseRangeMax: 285.76
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
+    m_HSlider: 1
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
@@ -98,18 +98,18 @@ MonoBehaviour:
       y: 21
       width: 750.8
       height: 714.4
-    m_Scale: {x: 1.084663, y: 1.084663}
-    m_Translation: {x: 375.4, y: 357.2}
+    m_Scale: {x: 1.2339154, y: 1.2339154}
+    m_Translation: {x: 394.85294, y: 357.19998}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -346.09827
-      y: -329.31888
-      width: 692.19653
-      height: 658.63776
+      x: -320
+      y: -289.485
+      width: 608.46954
+      height: 578.97
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 938.5, y: 919.25}
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 0
-  controlID: 7413
+  controlID: 8459
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 7414
+  controlID: 8394
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,8 +187,8 @@ MonoBehaviour:
     y: 0
     width: 275.2
     height: 394.4
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -225,10 +225,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 120}
+      scrollPos: {x: 0, y: 255.6}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 0433feff5233feff1036feff7637feff7810ffff9612ffff9c13ffffd216ffffc417ffff3a18ffff8a19ffff32f2ffff48f4ffff74f7ffff0afbffff660d0100920d0100ae0d0100ba0d0100800e01006e0f01004410010094100100
+      m_ExpandedIDs: 0afbffffce6500001867000084670000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -364,9 +364,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 351}
-    m_SelectedIDs: 426c0000
-    m_LastClickedID: 27714
-    m_ExpandedIDs: 000000007c6b000000ca9a3bffffff7f
+    m_SelectedIDs: 606c0000
+    m_LastClickedID: 27744
+    m_ExpandedIDs: 00000000786b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -394,7 +394,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007c6b000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000786b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -419,8 +419,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: ae0d0100
-    m_LastClickedInstanceID: 69038
+    m_SelectedInstanceIDs: ce650000
+    m_LastClickedInstanceID: 26062
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300008a7b0000
     m_RenameOverlay:
@@ -826,49 +826,68 @@ MonoBehaviour:
       zoom: 1
     selectionHistory:
       backList:
-      - fsmComponentID: 69048
+      - fsmComponentID: -13242
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 69784
+      - fsmComponentID: 25920
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 69048
+      - fsmComponentID: 26504
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 69784
+      - fsmComponentID: 25920
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 69048
+      - fsmComponentID: 26454
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 69784
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 69048
+      - fsmComponentID: 25920
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
       forwardList: []
       selectionCache:
-      - fsmComponentID: 69048
+      - fsmComponentID: 25920
         fsmTemplate: {fileID: 0}
-        stateName: State 6
-        stateNames:
-        - State 6
-        transitionIndex: -1
-        scrollPosition: {x: 736.166, y: -240.03278}
-        zoom: 0.6400003
-      - fsmComponentID: 69784
-        fsmTemplate: {fileID: 0}
-        stateName: Game Start
+        stateName: 
         stateNames: []
-        transitionIndex: 0
+        transitionIndex: -1
         scrollPosition: {x: 0, y: 0}
         zoom: 1
+      - fsmComponentID: 26454
+        fsmTemplate: {fileID: 0}
+        stateName: Wait
+        stateNames:
+        - Wait
+        transitionIndex: 0
+        scrollPosition: {x: 888.6418, y: -248.03339}
+        zoom: 1
+      - fsmComponentID: 26504
+        fsmTemplate: {fileID: 0}
+        stateName: Deactivate Self
+        stateNames:
+        - Deactivate Self
+        transitionIndex: -1
+        scrollPosition: {x: 827.87946, y: 0}
+        zoom: 1
+      - fsmComponentID: -13242
+        fsmTemplate: {fileID: 0}
+        stateName: Start
+        stateNames:
+        - Start
+        transitionIndex: -1
+        scrollPosition: {x: -0.003112793, y: -0.0015869141}
+        zoom: 1
       recentlySelectedList:
-      - fsmComponentID: 69048
+      - fsmComponentID: -13242
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 69784
+      - fsmComponentID: 25920
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 26504
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 26454
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
     debugger:
@@ -935,7 +954,7 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 69038
+  m_LastInspectedObjectInstanceID: 26062
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
