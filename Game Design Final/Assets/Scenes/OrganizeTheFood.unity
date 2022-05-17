@@ -8368,7 +8368,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Nas prateleiras do meio, guarda-se os alimentos que precisam de ser cozinhados,
-    e que se estragam com facilidade, pois est\xE3o numa zona mais frio do frigor\xEDfico."
+    e que se estragam com facilidade, pois est\xE3o numa zona mais fria do frigor\xEDfico."
 --- !u!222 &948548803
 CanvasRenderer:
   m_ObjectHideFlags: 0
