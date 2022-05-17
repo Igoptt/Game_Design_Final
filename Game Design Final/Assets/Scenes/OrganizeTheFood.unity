@@ -9972,7 +9972,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 8
+          value: 14
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
