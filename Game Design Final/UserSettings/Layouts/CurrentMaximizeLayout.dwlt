@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 210
+  controlID: 312
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -46,8 +46,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 279.4
-    y: 19
+    x: 340.80002
+    y: 73.6
     width: 758
     height: 749.8
   m_ViewDataDictionary: {fileID: 0}
@@ -87,7 +87,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -98,7 +98,7 @@ MonoBehaviour:
       y: 21
       width: 758
       height: 728.8
-    m_Scale: {x: 1.0609, y: 1.0609}
+    m_Scale: {x: 1.2252024, y: 1.2252024}
     m_Translation: {x: 379, y: 364.4}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -106,10 +106,10 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -357.24387
-      y: -343.48196
-      width: 714.48773
-      height: 686.9639
+      x: -309.33664
+      y: -297.42023
+      width: 618.6733
+      height: 594.84045
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 947.5, y: 937.25}
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 0
-  controlID: 211
+  controlID: 313
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 212
+  controlID: 228
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,8 +187,8 @@ MonoBehaviour:
     y: 0
     width: 278.4
     height: 401.6
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -228,7 +228,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 0afbffff
+      m_ExpandedIDs: 0afbffff2465000018670000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -364,9 +364,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 239}
-    m_SelectedIDs: 706c0000
-    m_LastClickedID: 27760
-    m_ExpandedIDs: 000000007c6b00002e6c0000726c000000ca9a3bffffff7f
+    m_SelectedIDs: 6a6c0000
+    m_LastClickedID: 27754
+    m_ExpandedIDs: 00000000786b0000286c00006c6c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -394,7 +394,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007c6b000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000786b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -419,8 +419,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: d2670000
+    m_LastClickedInstanceID: 26578
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300008a7b0000
     m_RenameOverlay:
@@ -704,9 +704,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 9.4777, y: 3.239988, z: 2.104777}
+    m_Target: {x: 9.881154, y: 2.80255, z: 0.52709776}
     speed: 2
-    m_Value: {x: 9.4777, y: 3.239988, z: 2.104777}
+    m_Value: {x: 9.881154, y: 2.80255, z: 0.52709776}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -753,13 +753,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0012856371, y: 0.99682385, z: -0.077910304, w: -0.016449094}
+    m_Target: {x: -0.005278166, y: 0.99471104, z: -0.070243545, w: -0.07474355}
     speed: 2
-    m_Value: {x: -0.0012856371, y: 0.99682385, z: -0.077910304, w: -0.016449094}
+    m_Value: {x: -0.0052781696, y: 0.99471176, z: -0.0702436, w: -0.0747436}
   m_Size:
-    m_Target: 1.2124354
+    m_Target: 0.4191987
     speed: 2
-    m_Value: 1.2124354
+    m_Value: 0.4191987
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -804,9 +804,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 380
+    x: 340.80002
     y: 73.6
-    width: 863.6
+    width: 758
     height: 749.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -826,7 +826,22 @@ MonoBehaviour:
       zoom: 1
     selectionHistory:
       backList:
-      - fsmComponentID: 26470
+      - fsmComponentID: 26188
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 26438
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 26302
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 26454
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 26438
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 26188
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 26172
@@ -841,16 +856,47 @@ MonoBehaviour:
         transitionIndex: 0
         scrollPosition: {x: 0, y: 0}
         zoom: 1
-      - fsmComponentID: 26470
+      - fsmComponentID: 26188
         fsmTemplate: {fileID: 0}
-        stateName: Deactivate Self
+        stateName: Idle
         stateNames:
-        - Deactivate Self
+        - Idle
         transitionIndex: -1
-        scrollPosition: {x: 489.40375, y: 0}
+        scrollPosition: {x: 0, y: 0}
+        zoom: 1
+      - fsmComponentID: 26438
+        fsmTemplate: {fileID: 0}
+        stateName: Music
+        stateNames: []
+        transitionIndex: 0
+        scrollPosition: {x: 0, y: 0}
+        zoom: 1
+      - fsmComponentID: 26454
+        fsmTemplate: {fileID: 0}
+        stateName: Idle
+        stateNames: []
+        transitionIndex: 0
+        scrollPosition: {x: 0, y: 0}
+        zoom: 1
+      - fsmComponentID: 26302
+        fsmTemplate: {fileID: 0}
+        stateName: Object Incorrectly Placed
+        stateNames:
+        - Object Incorrectly Placed
+        transitionIndex: -1
+        scrollPosition: {x: 481.21545, y: -41.900085}
         zoom: 1
       recentlySelectedList:
-      - fsmComponentID: 26470
+      - fsmComponentID: 26188
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 26438
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 26302
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 26454
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 26172
@@ -877,8 +923,8 @@ MonoBehaviour:
     y: 0
     width: 435.19995
     height: 770.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -920,7 +966,7 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: 26578
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
