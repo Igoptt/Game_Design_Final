@@ -5247,7 +5247,6 @@ GameObject:
   - component: {fileID: 2105064764}
   - component: {fileID: 2105064765}
   - component: {fileID: 2105064766}
-  - component: {fileID: 2105064767}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -8001,7 +8000,7 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams:
         - useVariable: 1
-          name: Drag&DropScore
+          name: FruitNinjaScore
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -8013,7 +8012,7 @@ MonoBehaviour:
           networkSync: 0
           value: 25
         - useVariable: 1
-          name: Drag&DropScore
+          name: FruitNinjaScore
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -8036,7 +8035,7 @@ MonoBehaviour:
         - 
         - TwoStars
         - 
-        - 
+        - TwoStars
         byteData: 010101
         arrayParamSizes: 
         arrayParamTypes: []
@@ -8117,9 +8116,9 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             typeName: UnityEngine.Object
-            value: {fileID: 0}
+            value: {fileID: 2134812490}
           TargetTypeName: TMPro.TextMeshProUGUI
-          PropertyName: 
+          PropertyName: text
           BoolParameter:
             useVariable: 0
             name: 
@@ -8154,7 +8153,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: 
+            value: 'Stars: 2'
           Vector2Parameter:
             useVariable: 0
             name: 
@@ -8194,7 +8193,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            typeName: 
+            typeName: System.String
             value: {fileID: 0}
           MaterialParameter:
             useVariable: 0
@@ -8286,7 +8285,7 @@ MonoBehaviour:
         - 
         - ThreeStars
         - 
-        - 
+        - ThreeStars
         byteData: 010101
         arrayParamSizes: 
         arrayParamTypes: []
@@ -8357,7 +8356,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             typeName: UnityEngine.Object
-            value: {fileID: 0}
+            value: {fileID: 2134812490}
           TargetTypeName: TMPro.TextMeshProUGUI
           PropertyName: text
           BoolParameter:
@@ -8465,7 +8464,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -8474,7 +8473,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
