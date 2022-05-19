@@ -2019,7 +2019,7 @@ MonoBehaviour:
         - 
         actionEnabled: 0101010101
         actionIsOpen: 0101010101
-        actionStartIndex: 0000000003000000090000001000000015000000
+        actionStartIndex: 0000000003000000090000001400000019000000
         actionHashCodes: 2ee01704dfd72a040cec9004bf83c90048c01101
         unityObjectParams: []
         fsmGameObjectParams:
@@ -2028,14 +2028,28 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 1632398634467439674, guid: 47fd2b9d0a81f4d4ab54b20e24d988e5,
+          value: {fileID: 2389575743767316106, guid: ae13f0ee1438f9c48af68e797932d4c4,
             type: 3}
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 3777564748812470622, guid: db375548930a07b469b7f9467a8f0eeb,
+          value: {fileID: 3716629348876493547, guid: 9dd02d5e9c9daed44b18fb2f6998b26b,
+            type: 3}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 491470786186096089, guid: 7c71262a9d97101429cce675bf956f84,
+            type: 3}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 746637710874835576, guid: 4f6d27950d4c90e46a535525c276c886,
             type: 3}
         - useVariable: 1
           name: RandomObject
@@ -2085,7 +2099,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 88
+          value: 84
         - useVariable: 1
           name: RandomX
           tooltip: 
@@ -2110,6 +2124,18 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 24
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         - useVariable: 0
           name: 
           tooltip: 
@@ -2162,13 +2188,13 @@ MonoBehaviour:
         stringParams:
         - FINISHED
         byteData: 0000
-        arrayParamSizes: 0200000002000000
+        arrayParamSizes: 0400000004000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmGameObject
         - HutongGames.PlayMaker.FsmFloat
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0f0000000f0000000f0000001c0000001c0000000f0000000f0000000f000000010000000c00000013000000130000000c0000000f0000000f0000001300000013000000130000001c0000001c000000130000000f0000001700000001000000
+        paramDataType: 0f0000000f0000000f0000001c0000001c0000000f0000000f0000000f000000010000000c000000130000001300000013000000130000000c0000000f0000000f0000000f0000000f0000001300000013000000130000001c0000001c000000130000000f0000001700000001000000
         paramName:
         - min
         - max
@@ -2182,7 +2208,11 @@ MonoBehaviour:
         - gameObjects
         - 
         - 
+        - 
+        - 
         - weights
+        - 
+        - 
         - 
         - 
         - storeGameObject
@@ -2194,8 +2224,8 @@ MonoBehaviour:
         - time
         - finishEvent
         - realTime
-        paramDataPos: 000000000100000002000000000000000100000003000000040000000500000000000000000000000000000001000000010000000600000007000000020000000300000004000000020000000300000005000000080000000000000001000000
-        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 000000000100000002000000000000000100000003000000040000000500000000000000000000000000000001000000020000000300000001000000060000000700000008000000090000000400000005000000060000000200000003000000070000000a0000000000000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
