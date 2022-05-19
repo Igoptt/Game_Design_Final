@@ -2891,7 +2891,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "GAME \nPAUSED"
+  m_text: 'JOGO
+
+    EM PAUSA'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: babcca876951e02498b19a3760fb7401, type: 2}
   m_sharedMaterial: {fileID: -1182181428893112895, guid: babcca876951e02498b19a3760fb7401,
