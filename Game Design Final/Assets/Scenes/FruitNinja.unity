@@ -600,7 +600,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267864784}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.25350356, z: 0}
+  m_LocalPosition: {x: 0, y: 0.25350356, z: 2.16}
   m_LocalScale: {x: 4.8950644, y: 3.944659, z: 1.9500328}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -619,9 +619,9 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.82
   m_Range: 30
-  m_SpotAngle: 86.23
+  m_SpotAngle: 117.8
   m_InnerSpotAngle: 1
   m_CookieSize: 10
   m_Shadows:
@@ -2286,7 +2286,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c04e943cb2512e44881593e3ba9c394c, type: 2}
+  - {fileID: 2100000, guid: a2edf266f25570a4ca91845328a1265e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5246,6 +5246,7 @@ GameObject:
   - component: {fileID: 2105064764}
   - component: {fileID: 2105064765}
   - component: {fileID: 2105064766}
+  - component: {fileID: 2105064767}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5469,6 +5470,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.RandomFloat
         - HutongGames.PlayMaker.Actions.RandomFloat
         - HutongGames.PlayMaker.Actions.SetVector3XYZ
+        - HutongGames.PlayMaker.Actions.SelectRandomGameObject
         - HutongGames.PlayMaker.Actions.CreateObject
         customNames:
         - 
@@ -5476,10 +5478,11 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 0101010101
-        actionIsOpen: 0101010101
-        actionStartIndex: 000000000300000006000000090000000f000000
-        actionHashCodes: 2ee017042ee017042ee01704dfd72a04bf83c900
+        - 
+        actionEnabled: 010101010101
+        actionIsOpen: 010101010101
+        actionStartIndex: 000000000300000006000000090000000f0000001e000000
+        actionHashCodes: 2ee017042ee017042ee01704dfd72a040cec9004bf83c900
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 0
@@ -5487,8 +5490,54 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 5865931651346708554, guid: 5355decf21f32ca4f85d00fae3a8e42b,
+          value: {fileID: 3193370838795840559, guid: 712a8b2a1dafda24eba3426da823691d,
             type: 3}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 7107292079040433036, guid: c75586ee55002f94793cf3e417708fac,
+            type: 3}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 5121825141975780059, guid: 014c6a5d2c12e9d48a07100974b0643a,
+            type: 3}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 7873448664607595807, guid: 7167a18b6c4b2ec4d86df9a0e2fa5e36,
+            type: 3}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 8587180675372804867, guid: 7f02d9ca91401ac44b836fff8c5cc976,
+            type: 3}
+        - useVariable: 1
+          name: GoodFoodToSpawn
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: GoodFoodToSpawn
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
         - useVariable: 0
           name: 
           tooltip: 
@@ -5586,6 +5635,42 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -5619,11 +5704,13 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams: []
         byteData: 00
-        arrayParamSizes: 
-        arrayParamTypes: []
+        arrayParamSizes: 0600000006000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmGameObject
+        - HutongGames.PlayMaker.FsmFloat
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0f0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000001c0000001c0000000f0000000f0000000f0000000100000013000000130000001c0000001c00000013000000
+        paramDataType: 0f0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000001c0000001c0000000f0000000f0000000f000000010000000c0000001300000013000000130000001300000013000000130000000c0000000f0000000f0000000f0000000f0000000f0000000f0000001300000013000000130000001c0000001c00000013000000
         paramName:
         - min
         - max
@@ -5640,13 +5727,28 @@ MonoBehaviour:
         - y
         - z
         - everyFrame
+        - gameObjects
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - weights
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - storeGameObject
         - gameObject
         - spawnPoint
         - position
         - rotation
         - storeObject
-        paramDataPos: 0000000001000000020000000300000004000000050000000600000007000000080000000000000001000000090000000a0000000b000000000000000000000001000000020000000300000002000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000
+        paramDataPos: 0000000001000000020000000300000004000000050000000600000007000000080000000000000001000000090000000a0000000b0000000000000000000000000000000100000002000000030000000400000005000000010000000c0000000d0000000e0000000f0000001000000011000000060000000700000008000000020000000300000009000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -5686,7 +5788,13 @@ MonoBehaviour:
       colorVariables: []
       rectVariables: []
       quaternionVariables: []
-      gameObjectVariables: []
+      gameObjectVariables:
+      - useVariable: 1
+        name: GoodFoodToSpawn
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
       objectVariables: []
       materialVariables: []
       textureVariables: []
@@ -5694,7 +5802,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -5889,6 +5997,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.RandomFloat
         - HutongGames.PlayMaker.Actions.RandomFloat
         - HutongGames.PlayMaker.Actions.SetVector3XYZ
+        - HutongGames.PlayMaker.Actions.SelectRandomGameObject
         - HutongGames.PlayMaker.Actions.CreateObject
         customNames:
         - 
@@ -5896,10 +6005,11 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 0101010101
-        actionIsOpen: 0101010101
-        actionStartIndex: 000000000300000006000000090000000f000000
-        actionHashCodes: 2ee017042ee017042ee01704dfd72a04bf83c900
+        - 
+        actionEnabled: 010101010101
+        actionIsOpen: 010101010101
+        actionStartIndex: 000000000300000006000000090000000f00000020000000
+        actionHashCodes: 2ee017042ee017042ee01704dfd72a040cec9004bf83c900
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 0
@@ -5907,8 +6017,62 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
+          value: {fileID: 8489884066930712877, guid: 444bc54f5e845d842b343b268fbeebc6,
+            type: 3}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 4298448148158515780, guid: 108a1db19aeb3bd4088611817d6d3a33,
+            type: 3}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 8533475905335478098, guid: c028094f62bfc5c4fbf3dc25cfc85785,
+            type: 3}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 1088045580391637288, guid: fdb62bc2c0f5cc842884a1d15657cfb3,
+            type: 3}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 685615720528427156, guid: 55ab9abd70f4a9145acbc93ad721b931,
+            type: 3}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 8897140476057750062, guid: c040f1943bd57e348ab934492ef7edde,
+            type: 3}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
           value: {fileID: 4968398742044993387, guid: bc7500133bccf6d458c6e49602ca3756,
             type: 3}
+        - useVariable: 1
+          name: BadFoodToSpawn
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: BadFoodToSpawn
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
         - useVariable: 0
           name: 
           tooltip: 
@@ -6006,6 +6170,48 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -6039,11 +6245,13 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams: []
         byteData: 00
-        arrayParamSizes: 
-        arrayParamTypes: []
+        arrayParamSizes: 0700000007000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmGameObject
+        - HutongGames.PlayMaker.FsmFloat
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0f0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000001c0000001c0000000f0000000f0000000f0000000100000013000000130000001c0000001c00000013000000
+        paramDataType: 0f0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000001c0000001c0000000f0000000f0000000f000000010000000c000000130000001300000013000000130000001300000013000000130000000c0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000001300000013000000130000001c0000001c00000013000000
         paramName:
         - min
         - max
@@ -6060,13 +6268,30 @@ MonoBehaviour:
         - y
         - z
         - everyFrame
+        - gameObjects
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - weights
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - storeGameObject
         - gameObject
         - spawnPoint
         - position
         - rotation
         - storeObject
-        paramDataPos: 0000000001000000020000000300000004000000050000000600000007000000080000000000000001000000090000000a0000000b000000000000000000000001000000020000000300000002000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000
+        paramDataPos: 0000000001000000020000000300000004000000050000000600000007000000080000000000000001000000090000000a0000000b000000000000000000000000000000010000000200000003000000040000000500000006000000010000000c0000000d0000000e0000000f00000010000000110000001200000007000000080000000900000002000000030000000a000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -6106,7 +6331,13 @@ MonoBehaviour:
       colorVariables: []
       rectVariables: []
       quaternionVariables: []
-      gameObjectVariables: []
+      gameObjectVariables:
+      - useVariable: 1
+        name: BadFoodToSpawn
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
       objectVariables: []
       materialVariables: []
       textureVariables: []
@@ -6114,7 +6345,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -7199,3 +7430,63 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 0
+--- !u!114 &2105064767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105064758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 2105064761}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 3
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
