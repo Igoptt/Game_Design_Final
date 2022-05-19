@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1219815696, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: templateFadeOut
+  m_Name: templateGoodFoodFN
   m_EditorClassIdentifier: 
   category: General
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 11400000}
-    name: FSM
-    startState: Visible 2
+    name: Die
+    startState: Visible
     states:
-    - name: Visible 2
+    - name: Visible
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 299
-        y: 193
+        x: 53
+        y: 109
         width: 100
         height: 32
       isBreakpoint: 0
@@ -84,8 +84,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 440
-        y: 191
+        x: 194
+        y: 107
         width: 100
         height: 32
       isBreakpoint: 0
@@ -262,8 +262,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 574
-        y: 188
+        x: 328
+        y: 104
         width: 100
         height: 16
       isBreakpoint: 0
@@ -324,7 +324,25 @@ MonoBehaviour:
       isGlobal: 0
     globalTransitions: []
     variables:
-      floatVariables: []
+      floatVariables:
+      - useVariable: 1
+        name: 
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: 
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: 
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
       intVariables: []
       boolVariables: []
       stringVariables: []
@@ -337,12 +355,6 @@ MonoBehaviour:
         networkSync: 0
         value: {x: 0, y: 0, z: 0}
       colorVariables:
-      - useVariable: 1
-        name: SetColorBad
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: {r: 1, g: 1, b: 1, a: 1}
       - useVariable: 1
         name: SetColorGood
         tooltip: 
@@ -359,7 +371,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
