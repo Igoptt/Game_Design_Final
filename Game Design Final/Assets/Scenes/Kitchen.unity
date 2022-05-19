@@ -1088,7 +1088,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 2
+          value: 8
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -2377,7 +2377,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &518990552
 GameObject:
@@ -3206,7 +3206,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 4
+          value: 6
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -3697,7 +3697,7 @@ Transform:
   - {fileID: 1436498654}
   - {fileID: 1856358032}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &647911763
 GameObject:
@@ -3854,7 +3854,7 @@ Transform:
   - {fileID: 264952014}
   - {fileID: 1571261271}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &678650640
 GameObject:
@@ -3891,7 +3891,7 @@ Transform:
   - {fileID: 1368981105}
   - {fileID: 2135797307}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 4.153, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -4894,7 +4894,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 3
+          value: 9
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -6585,7 +6585,7 @@ Transform:
   - {fileID: 46003057}
   - {fileID: 836682688}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &990517788
 GameObject:
@@ -7467,7 +7467,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 7
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -10154,7 +10154,7 @@ Transform:
   - {fileID: 1179231525}
   - {fileID: 1839773717}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1411527063 stripped
 Transform:
@@ -11872,7 +11872,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1771296972
 PrefabInstance:

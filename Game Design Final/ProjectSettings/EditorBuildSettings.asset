@@ -23,6 +23,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cooking.unity
     guid: 65e242ca19ce80246abe2fc4f590aef4
+  - enabled: 1
+    path: Assets/Scenes/EscolheComidinhaMenu.unity
+    guid: 3ec96e99a98dcc7429f8798668cdeec4
+  - enabled: 1
+    path: Assets/Scenes/OrganizeTheFridgeMenu.unity
+    guid: 42c1077fb3e96de40865abe37919bd90
+  - enabled: 1
+    path: Assets/Scenes/FruitNinjaMenu.unity
+    guid: b4e15960fe121564dbd845984ebfd802
+  - enabled: 1
+    path: Assets/Scenes/CatchFoodMenu.unity
+    guid: c439c1c02d2d3454f9d195d92c6bb265
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 1fe0a06ea4c73fa42afc31dc9957939e,
       type: 2}

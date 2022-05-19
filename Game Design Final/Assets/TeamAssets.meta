@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Game Design Final/Assets/TeamAssets.meta
 guid: 80aa759d1f5584749a35d5a1f2ac3765
 folderAsset: yes
+========
+guid: 42c1077fb3e96de40865abe37919bd90
+>>>>>>>> origin/MenuEscolheComidinha:Game Design Final/Assets/Scenes/OrganizeTheFridgeMenu.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
