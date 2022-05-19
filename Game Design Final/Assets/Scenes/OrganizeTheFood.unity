@@ -1292,7 +1292,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: -1
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -3068,7 +3068,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 525982607}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.327, y: 2.9668, z: 0.365}
+  m_LocalPosition: {x: 9.193, y: 2.9668, z: 0.365}
   m_LocalScale: {x: 0.06, y: 0.06, z: 0.06}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3483,7 +3483,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: -1
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -4409,7 +4409,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: -1
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -5366,7 +5366,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: -1
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -6250,7 +6250,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: -1
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -8670,7 +8670,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: -1
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -10788,8 +10788,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 50
-        y: 116
+        x: 55
+        y: 148
         width: 100
         height: 32
       isBreakpoint: 0
@@ -10800,19 +10800,21 @@ MonoBehaviour:
           name: WinGame
           isSystemEvent: 0
           isGlobal: 0
-        toState: EndGame
+        toState: CheckHiScore
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.IntCompare
+        - HutongGames.PlayMaker.Actions.SetIntValue
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 09faa102
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000006000000
+        actionHashCodes: 09faa102603dd905
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -10841,6 +10843,18 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 14
+        - useVariable: 1
+          name: ObjectsPlaced
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 12
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -10851,12 +10865,12 @@ MonoBehaviour:
         - WinGame
         - 
         - 
-        byteData: 01
+        byteData: 0100
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 100000001000000017000000170000001700000001000000
+        paramDataType: 100000001000000017000000170000001700000001000000100000001000000001000000
         paramName:
         - integer1
         - integer2
@@ -10864,15 +10878,18 @@ MonoBehaviour:
         - lessThan
         - greaterThan
         - everyFrame
-        paramDataPos: 000000000100000000000000010000000200000000000000
-        paramByteDataSize: 000000000000000000000000000000000000000001000000
+        - intVariable
+        - intValue
+        - everyFrame
+        paramDataPos: 000000000100000000000000010000000200000000000000020000000300000001000000
+        paramByteDataSize: 000000000000000000000000000000000000000001000000000000000000000001000000
     - name: EndGame
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 247.79688
-        y: 100
+        x: 384.26562
+        y: 101.96094
         width: 100
         height: 16
       isBreakpoint: 0
@@ -11005,7 +11022,181 @@ MonoBehaviour:
         - failureEvent
         paramDataPos: 00000000010000000000000002000000030000000100000004000000050000000200000003000000000000000600000000000000000000000000000001000000
         paramByteDataSize: 00000000000000000100000000000000000000000100000000000000000000000100000004000000000000000000000000000000000000000000000000000000
+    - name: UpdateScore
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 370.17188
+        y: 192.0625
+        width: 108
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: EndGame
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetIntValue
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 603dd905
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: StarsOrganizeFood
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: ObjectsPlaced
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 100000001000000001000000
+        paramName:
+        - intVariable
+        - intValue
+        - everyFrame
+        paramDataPos: 000000000100000000000000
+        paramByteDataSize: 000000000000000001000000
+    - name: CheckHiScore
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 211.25781
+        y: 133.42969
+        width: 113
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: EndGame
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: UpdateStars
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: UpdateScore
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.IntCompare
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 09faa102
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: StarsOrganizeFood
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: ObjectsPlaced
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        - UpdateStars
+        - FINISHED
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 100000001000000017000000170000001700000001000000
+        paramName:
+        - integer1
+        - integer2
+        - equal
+        - lessThan
+        - greaterThan
+        - everyFrame
+        paramDataPos: 000000000100000000000000010000000200000000000000
+        paramByteDataSize: 000000000000000000000000000000000000000001000000
     events:
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: UpdateStars
+      isSystemEvent: 0
+      isGlobal: 0
     - name: WinGame
       isSystemEvent: 0
       isGlobal: 0
@@ -11549,7 +11740,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: -1
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -12462,7 +12653,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: -1
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -13463,7 +13654,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: -1
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -14430,7 +14621,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: -1
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -17207,7 +17398,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: -1
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -18255,7 +18446,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: -1
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -20439,7 +20630,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1634521217341305}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.872, y: 2.965, z: 0.365}
+  m_LocalPosition: {x: 9.87, y: 2.965, z: 0.365}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -20812,7 +21003,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: -1
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -22480,7 +22671,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: -1
         fsmBoolParams:
         - useVariable: 0
           name: 
