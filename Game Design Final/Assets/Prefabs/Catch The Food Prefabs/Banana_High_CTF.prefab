@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2404741245258974007}
   - component: {fileID: 2404741245258974000}
   - component: {fileID: 2404741245258974001}
+  - component: {fileID: 207851521702903085}
   m_Layer: 0
   m_Name: Banana_High_CTF
   m_TagString: Untagged
@@ -439,7 +440,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -457,7 +458,7 @@ MonoBehaviour:
     handleTriggerEnter: 0
     handleTriggerExit: 0
     handleTriggerStay: 0
-    handleCollisionEnter: 0
+    handleCollisionEnter: 1
     handleCollisionExit: 0
     handleCollisionStay: 0
     handleParticleCollision: 0
@@ -473,4 +474,18 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &207851521702903085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2389575743767316106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 845409985, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 2404741245258974001}
