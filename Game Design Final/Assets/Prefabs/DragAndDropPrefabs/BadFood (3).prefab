@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2756645929388622092}
   - component: {fileID: 4701353476443407166}
   - component: {fileID: 2041185703028722543}
+  - component: {fileID: 8409550605283367180}
   m_Layer: 3
   m_Name: BadFood (3)
   m_TagString: Untagged
@@ -801,7 +802,7 @@ MonoBehaviour:
     EnableBreakpoints: 1
     editorFlags: 1
     activeStateName: 
-    mouseEvents: 0
+    mouseEvents: 1
     handleLevelLoaded: 0
     handleTriggerEnter2D: 0
     handleTriggerExit2D: 0
@@ -1395,3 +1396,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TargetFSMs:
   - {fileID: 2756645929388622092}
+--- !u!114 &8409550605283367180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8533475905335478098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1775717093, guid: 9754d4abda502c6458053d5ed8e4fc5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 7896851151124429906}
