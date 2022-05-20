@@ -944,13 +944,7 @@ MonoBehaviour:
     - name: TwoStars
       isSystemEvent: 0
       isGlobal: 0
-    - name: OneStar
-      isSystemEvent: 0
-      isGlobal: 0
     - name: ThreeStars
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: TwoStars
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions: []
@@ -982,7 +976,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
