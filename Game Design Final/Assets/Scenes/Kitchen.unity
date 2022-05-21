@@ -1088,7 +1088,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 2
+          value: 8
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -3206,7 +3206,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 4
+          value: 7
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -4894,7 +4894,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 3
+          value: 6
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -7467,7 +7467,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 9
         fsmBoolParams:
         - useVariable: 0
           name: 
