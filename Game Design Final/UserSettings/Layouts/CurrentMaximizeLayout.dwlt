@@ -26,7 +26,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 38832
+  controlID: 57957
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -89,7 +89,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 38833
+  controlID: 57958
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -397,9 +397,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 387.5804, y: 420.3244, z: -0.16231011}
+    m_Target: {x: 336.70898, y: 248.49869, z: -66.837654}
     speed: 2
-    m_Value: {x: 387.5804, y: 420.3244, z: -0.16231011}
+    m_Value: {x: 336.70898, y: 248.49869, z: -66.837654}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -430,7 +430,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -448,11 +448,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: 1.6588991e-10, y: 0.000000092102745, z: -0.000000009875031, w: 1}
   m_Size:
-    m_Target: 55.371487
+    m_Target: 259.8515
     speed: 2
-    m_Value: 55.371487
+    m_Value: 259.8515
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -470,7 +470,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: 0.0017906178, y: 0.99415815, z: -0.106591195, w: 0.016704833}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -561,9 +561,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: baf30100
-      m_LastClickedID: 127930
-      m_ExpandedIDs: 20cbf4ff4ad1f4ff8cd9f4ff50ddf4ff32e7f4fff8fef4ff2823f5ff1028f5ff2c2cf5ffce4cf5ffb627f6ff642bf6ff1432f6ff383df6ffbe48f6ff6450f6ff2225f9ffa63ff9ffa83ff9ffea46f9ffea48f9ffbc63f9ffd65bfaff445cfaff2c60fafffc68faff2a6afaff8a44fbff6c1dfcff3a1ffcfffa20fcff4e24fcff7c2bfcff342dfcffdc2ffcff043afcff6c48fcffb848fcffac4afcff4a4ffcffe452fcff2676fcff8082fcff1488fcff5c8efcff2290fcffded0fcffb63ffdfffe68fdffae6bfdff2a7cfdffa282fdff2c89fdffd889fdffa08bfdff5a8dfdffcaa9fdff6cb1fdff28c3fdff2ac3fdff3ac3fdffb2c9fdff92d1fdff3ad8fdff5ce9fdffc8edfdffecf2fdff1800feff9605feff1c17feff2417feff2617feff781bfeffc42afeff5044feff4c7cfeff7482feff2cf5feffc6fffeffe652ffffa25affff3e60ffff6067ffffa86cffff1878ffff2e7dfffff07effff0281ffff9885ffffd685ffff1c97ffff129effffde9fffff54afffff84b4ffff56b8ffff28bcffff54c0ffff82c4ffff54c8ffff2accffffe6ebffffd8f3ffff0cfbfffff4ffffff0e660000526600005e660000686700004ac7000054c700001cc80000ecc80000f2d2000098d30000acd90000d2db000092dc000062dd0000b4de000074df000044e000000aeb00004eeb00006eef000014f000005ef000000ef1000016f10000f60a0100a20b0100e61b0100f41d010002420100184201005c42010072420100b8420100684f01000c510100fe5d0100aa5e01003c7f01008c7f0100b87f0100728701007488010048a90100a8b40100f0b80100e4d0010098d10100ccd1010018d80100e0d80100b0d90100c0eb010088ec010058ed0100d8f301000aff0100b6ff0100aebc0200b4a80500caa805001aa905006aa90500cea90500bcad05006ab00500e6ba05001ebb050056d3050006e70500405e06004a5e0600905e0600e85e0600125f0600e25f06008669060090690600586a0600286b06004c6f0600566f06001e700600ee700600fc770600c4780600d47a0600de7a0600a67b0600767c0600
+      m_SelectedIDs: 1810fbff
+      m_LastClickedID: -323560
+      m_ExpandedIDs: 20cbf4ff4ad1f4ff8cd9f4ff50ddf4ff32e7f4fff8fef4ff2823f5ff1028f5ff2c2cf5ffce4cf5ffb627f6ff642bf6ff1432f6ff383df6ffbe48f6ff6450f6ff2225f9ffa63ff9ffa83ff9ffea46f9ffea48f9ffbc63f9ffd65bfaff445cfaff2c60fafffc68faff2a6afaffc605fbff881dfbffee29fbff9842fbff8a44fbffa046fbffa44bfbff864ffbff8e54fbff7058fbff2ca4fbff6ea9fbff6c1dfcff3a1ffcfffa20fcff4e24fcff342dfcffdc2ffcff043afcff6c48fcffb848fcffac4afcff4a4ffcffe452fcff2676fcff8082fcff1488fcff5c8efcff2290fcffded0fcffb63ffdfffe68fdffae6bfdff2a7cfdffa282fdff2c89fdffd889fdffa08bfdff5a8dfdffcaa9fdff6cb1fdff28c3fdff2ac3fdff3ac3fdffb2c9fdff92d1fdff3ad8fdff5ce9fdffc8edfdffecf2fdff1800feff9605feff1c17feff2417feff2617feff781bfeffc42afeff5044feff4c7cfeff7482feff2cf5feffc6fffeffe652ffffa25affff3e60ffff6067ffffa86cffff1878ffff2e7dfffff07effff0281ffff9885ffffd685ffff1c97ffff129effffde9fffff54afffff84b4ffff56b8ffff28bcffff54c0ffff82c4ffff54c8ffff2accffffe6ebffffd8f3ffff0cfbfffff4ffffff0e660000526600005e660000686700004ac7000054c700001cc80000ecc80000f2d2000098d30000acd90000d2db000092dc000062dd0000b4de000074df000044e000000aeb00004eeb00006eef000014f000005ef000000ef1000016f10000f60a0100a20b0100e61b0100f41d010002420100184201005c42010072420100b8420100684f01000c510100fe5d0100aa5e01003c7f01008c7f0100b87f0100728701007488010048a90100a8b40100f0b80100e4d0010098d10100ccd1010018d80100e0d80100b0d90100c0eb010088ec010058ed0100d8f301000aff0100b6ff0100c81e0200541f0200002002007640020054420200aebc0200b4a80500caa805001aa905006aa90500cea90500bcad05006ab00500e6ba05001ebb050056d3050006e70500405e06004a5e0600905e0600e85e0600125f0600e25f06008669060090690600586a0600286b06004c6f0600566f06001e700600ee700600fc770600c4780600d47a0600de7a0600a67b0600767c0600
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -579,7 +579,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 6}
+        m_ClientGUIView: {fileID: 7}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -656,22 +656,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/TextMesh Pro/Resources/Fonts & Materials
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/TextMesh Pro/Resources/Fonts & Materials
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\joao-\Documents\Game_Design_Final\Game Design Final
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f2930100
-    m_LastClickedID: 103410
-    m_ExpandedIDs: 000000001e66000020660000226600005e66000000ca9a3b
+    m_SelectedIDs: 22660000
+    m_LastClickedID: 26146
+    m_ExpandedIDs: 000000001e6600002266000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -724,8 +724,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: baf30100
-    m_LastClickedInstanceID: 127930
+    m_SelectedInstanceIDs: 1810fbff
+    m_LastClickedInstanceID: -323560
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 563e010000000000
     m_RenameOverlay:
