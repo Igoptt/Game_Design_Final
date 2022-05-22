@@ -10350,10 +10350,10 @@ MonoBehaviour:
         - 
         - 
         - OneStar
-        - 
+        - NoStars
         - 
         - TwoStars
-        - 
+        - OneStar
         - 
         - ThreeStars
         - TwoStars
@@ -13816,7 +13816,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 5
+          value: 25
         - useVariable: 1
           name: HighScoreDragAndDrop
           tooltip: 
@@ -13828,7 +13828,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 10
+          value: 50
         - useVariable: 1
           name: HighScoreDragAndDrop
           tooltip: 
@@ -13840,7 +13840,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 20
+          value: 75
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -13852,10 +13852,10 @@ MonoBehaviour:
         - 
         - 
         - OneStar
-        - 
+        - NoStars
         - 
         - TwoStars
-        - 
+        - OneStar
         - 
         - ThreeStars
         - TwoStars
