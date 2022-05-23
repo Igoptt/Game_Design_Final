@@ -21,9 +21,6 @@ EditorBuildSettings:
     path: Assets/Scenes/DragAndDrop.unity
     guid: d6071f8f3a20594458a634f54f0ae96a
   - enabled: 1
-    path: Assets/Scenes/Cooking.unity
-    guid: 65e242ca19ce80246abe2fc4f590aef4
-  - enabled: 1
     path: Assets/Scenes/menus/CatchFoodMenu.unity
     guid: c439c1c02d2d3454f9d195d92c6bb265
   - enabled: 1
