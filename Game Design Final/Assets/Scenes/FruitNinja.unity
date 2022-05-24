@@ -11265,7 +11265,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Stars
+  m_text: 'Estrelas: 0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11328,7 +11328,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -107.02884, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -11444,7 +11444,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: 'Stars: 0'
+            value: 'Estrelas: 0'
           Vector2Parameter:
             useVariable: 0
             name: 
@@ -11673,7 +11673,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: 'Stars: 1'
+            value: 'Estrelas: 1'
           Vector2Parameter:
             useVariable: 0
             name: 
@@ -11923,7 +11923,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: 'Stars: 2'
+            value: 'Estrelas: 2'
           Vector2Parameter:
             useVariable: 0
             name: 
@@ -12163,7 +12163,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: 'Stars: 3'
+            value: 'Estrelas: 3'
           Vector2Parameter:
             useVariable: 0
             name: 
