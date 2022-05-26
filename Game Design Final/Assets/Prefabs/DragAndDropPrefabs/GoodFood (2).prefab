@@ -100,8 +100,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.4481229, y: 0.42554978, z: 0.18648274}
-  m_Center: {x: 0.050172977, y: 0.015231959, z: 0.005264958}
+  m_Size: {x: 0.4344918, y: 0.40598786, z: 0.18648274}
+  m_Center: {x: 0.05698848, y: 0.005450994, z: 0.0052649584}
 --- !u!114 &8744181962666717324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1054,8 +1054,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 532.64844
-        y: 188.07812
+        x: 529.64844
+        y: 187.07812
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1072,15 +1072,13 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.DestroySelf
         - HutongGames.PlayMaker.Actions.IntAdd
         customNames:
         - 
-        - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000001000000
-        actionHashCodes: 62f95203603dd905
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 603dd905
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -1109,13 +1107,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: -1
-        fsmBoolParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
+        fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
@@ -1127,14 +1119,13 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 11000000100000001000000001000000
+        paramDataType: 100000001000000001000000
         paramName:
-        - detachChildren
         - intVariable
         - add
         - everyFrame
-        paramDataPos: 00000000000000000100000000000000
-        paramByteDataSize: 00000000000000000000000001000000
+        paramDataPos: 000000000100000000000000
+        paramByteDataSize: 000000000000000001000000
     - name: RemoveScore
       description: 
       colorIndex: 0
@@ -1348,7 +1339,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -1363,7 +1354,7 @@ MonoBehaviour:
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
-    handleTriggerEnter: 1
+    handleTriggerEnter: 0
     handleTriggerExit: 0
     handleTriggerStay: 0
     handleCollisionEnter: 0
