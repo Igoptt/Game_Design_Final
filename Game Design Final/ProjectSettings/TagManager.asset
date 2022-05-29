@@ -21,6 +21,8 @@ TagManager:
   - Capsicum
   - Banana
   - Lemon
+  - Good
+  - Plane
   layers:
   - Default
   - TransparentFX
