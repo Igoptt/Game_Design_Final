@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 3535434319690545955}
   m_Layer: 0
   m_Name: Lemon1_High_CTF
-  m_TagString: Untagged
+  m_TagString: GoodFoodCTF
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

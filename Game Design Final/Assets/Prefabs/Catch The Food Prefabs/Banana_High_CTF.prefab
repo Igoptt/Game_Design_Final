@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 207851521702903085}
   m_Layer: 0
   m_Name: Banana_High_CTF
-  m_TagString: Untagged
+  m_TagString: GoodFoodCTF
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
