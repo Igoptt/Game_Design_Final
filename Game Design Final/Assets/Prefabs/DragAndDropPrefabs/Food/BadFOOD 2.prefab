@@ -1973,3 +1973,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TargetFSMs:
   - {fileID: 5628224247508535935}
+  - {fileID: 418178032208394017}
