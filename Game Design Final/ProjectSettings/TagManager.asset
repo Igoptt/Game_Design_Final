@@ -8,10 +8,7 @@ TagManager:
   - Trash
   - CheeseColider
   - Carrot
-  - Cherries
   - Juice
-  - Peanuts
-  - Blackberries
   - Cheese
   - Yogurt
   - Butter
@@ -21,6 +18,8 @@ TagManager:
   - Capsicum
   - Banana
   - Lemon
+  - Good
+  - Plane
   layers:
   - Default
   - TransparentFX
