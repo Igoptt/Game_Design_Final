@@ -1960,6 +1960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TargetFSMs:
   - {fileID: 5628224247508535935}
+  - {fileID: 418178032208394017}
 --- !u!135 &1432259413547795934
 SphereCollider:
   m_ObjectHideFlags: 0
