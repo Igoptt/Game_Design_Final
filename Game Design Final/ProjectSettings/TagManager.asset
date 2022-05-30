@@ -20,6 +20,11 @@ TagManager:
   - Lemon
   - Good
   - Plane
+  - Ground
+  - LeftWall
+  - RightWall
+  - GoodFoodCTF
+  - BadFoodCTF
   layers:
   - Default
   - TransparentFX
