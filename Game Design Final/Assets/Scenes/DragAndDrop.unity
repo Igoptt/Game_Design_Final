@@ -11779,17 +11779,13 @@ MonoBehaviour:
       transitions: []
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.LoadLevel
-        - HutongGames.PlayMaker.Actions.SetIntValue
         - HutongGames.PlayMaker.Actions.ActivateGameObject
         customNames:
         - 
-        - 
-        - 
-        actionEnabled: 000001
-        actionIsOpen: 010101
-        actionStartIndex: 000000000600000009000000
-        actionHashCodes: e688d305603dd905b2cf1000
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: b2cf1000
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -11807,38 +11803,14 @@ MonoBehaviour:
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Kitchen
+        fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams: []
-        fsmIntParams:
-        - useVariable: 1
-          name: Drag&DropScore
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
+        fsmIntParams: []
         fsmBoolParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
         - useVariable: 0
           name: 
           tooltip: 
@@ -11856,32 +11828,21 @@ MonoBehaviour:
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams:
-        - 
-        - 
-        byteData: 0000000000
+        stringParams: []
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1200000001000000010000001700000011000000170000001000000010000000010000001400000011000000110000000100000001000000
+        paramDataType: 1400000011000000110000000100000001000000
         paramName:
-        - levelName
-        - additive
-        - async
-        - loadedEvent
-        - dontDestroyOnLoad
-        - failedEvent
-        - intVariable
-        - intValue
-        - everyFrame
         - gameObject
         - activate
         - recursive
         - resetOnExit
         - everyFrame
-        paramDataPos: 0000000000000000010000000000000000000000010000000000000001000000020000000000000001000000020000000300000004000000
-        paramByteDataSize: 0000000001000000010000000000000000000000000000000000000000000000010000000000000000000000000000000100000001000000
+        paramDataPos: 0000000000000000010000000000000001000000
+        paramByteDataSize: 0000000000000000000000000100000001000000
     events:
     - name: EndGame
       isSystemEvent: 0
@@ -13331,6 +13292,16 @@ PrefabInstance:
     - target: {fileID: 74082037803460448, guid: 3e7e8c7b1bf6bc54c94b34a68f827795,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 418178032208394017, guid: 3e7e8c7b1bf6bc54c94b34a68f827795,
+        type: 3}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 418178032208394017, guid: 3e7e8c7b1bf6bc54c94b34a68f827795,
+        type: 3}
+      propertyPath: fsm.handleTriggerEnter
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 418178032208394017, guid: 3e7e8c7b1bf6bc54c94b34a68f827795,

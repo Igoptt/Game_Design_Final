@@ -8567,16 +8567,18 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.UiTextSetText
         - HutongGames.PlayMaker.Actions.FloatCompare
         - HutongGames.PlayMaker.Actions.SetFloatValue
+        - HutongGames.PlayMaker.Actions.ScaleTime
         customNames:
         - 
         - 
         - 
         - 
         - 
-        actionEnabled: 0101010101
-        actionIsOpen: 0101010101
-        actionStartIndex: 0000000004000000080000000c00000013000000
-        actionHashCodes: 2a6e8a003523200209fbab041bcdca049845b305
+        - 
+        actionEnabled: 010101010101
+        actionIsOpen: 010101010101
+        actionStartIndex: 0000000004000000080000000c0000001300000016000000
+        actionHashCodes: 2a6e8a003523200209fbab041bcdca049845b3056cdd4504
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -8666,6 +8668,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 60
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
@@ -8674,6 +8682,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
@@ -8683,12 +8697,12 @@ MonoBehaviour:
         - TimeUp
         - TimeUp
         - 
-        byteData: 010101010100
+        byteData: 01010101010000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0f0000000f00000001000000010000000f000000120000001200000001000000140000001200000011000000010000000f0000000f0000000f000000170000001700000017000000010000000f0000000f00000001000000
+        paramDataType: 0f0000000f00000001000000010000000f000000120000001200000001000000140000001200000011000000010000000f0000000f0000000f000000170000001700000017000000010000000f0000000f000000010000000f0000001100000001000000
         paramName:
         - floatVariable
         - subtract
@@ -8712,16 +8726,19 @@ MonoBehaviour:
         - floatVariable
         - floatValue
         - everyFrame
-        paramDataPos: 00000000010000000000000001000000020000000000000001000000020000000000000002000000000000000300000003000000040000000500000000000000010000000200000004000000060000000700000005000000
-        paramByteDataSize: 00000000000000000100000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000000000000000000000000000001000000000000000000000001000000
-    - name: End Game
+        - timeScale
+        - adjustFixedDeltaTime
+        - everyFrame
+        paramDataPos: 00000000010000000000000001000000020000000000000001000000020000000000000002000000000000000300000003000000040000000500000000000000010000000200000004000000060000000700000005000000080000000100000006000000
+        paramByteDataSize: 00000000000000000100000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000000000000000000000000000001000000000000000000000001000000000000000000000001000000
+    - name: ShowEndScreen
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 330
         y: 112
-        width: 100
+        width: 125
         height: 16
       isBreakpoint: 0
       isSequence: 0
@@ -8729,82 +8746,87 @@ MonoBehaviour:
       transitions: []
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.LoadLevel
-        - HutongGames.PlayMaker.Actions.SetIntValue
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.ScaleTime
         customNames:
         - 
         - 
         actionEnabled: 0101
         actionIsOpen: 0101
-        actionStartIndex: 0000000006000000
-        actionHashCodes: e688d305603dd905
+        actionStartIndex: 0000000005000000
+        actionHashCodes: b2cf10006cdd4504
         unityObjectParams: []
         fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 1593862687}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Kitchen
+        fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams:
-        - useVariable: 1
-          name: FruitNinjaScore
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
+        fsmFloatParams:
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: 0
+        fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams:
-        - 
-        - 
+        stringParams: []
         byteData: 000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 120000000100000001000000170000001100000017000000100000001000000001000000
+        paramDataType: 14000000110000001100000001000000010000000f0000001100000001000000
         paramName:
-        - levelName
-        - additive
-        - async
-        - loadedEvent
-        - dontDestroyOnLoad
-        - failedEvent
-        - intVariable
-        - intValue
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
         - everyFrame
-        paramDataPos: 000000000000000001000000000000000000000001000000000000000100000002000000
-        paramByteDataSize: 000000000100000001000000000000000000000000000000000000000000000001000000
+        - timeScale
+        - adjustFixedDeltaTime
+        - everyFrame
+        paramDataPos: 0000000000000000010000000000000001000000000000000200000002000000
+        paramByteDataSize: 0000000000000000000000000100000001000000000000000000000001000000
     - name: Check for new High Score
       description: 
       colorIndex: 0
@@ -8830,7 +8852,7 @@ MonoBehaviour:
           name: EndGame
           isSystemEvent: 0
           isGlobal: 0
-        toState: End Game
+        toState: ShowEndScreen
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -8913,7 +8935,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: End Game
+        toState: ShowEndScreen
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -10954,7 +10976,7 @@ MonoBehaviour:
           value: 1
         fsmIntParams:
         - useVariable: 1
-          name: Drag&DropScore
+          name: FruitNinjaScore
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -13700,7 +13722,7 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams:
         - useVariable: 1
-          name: Drag&DropScore
+          name: FruitNinjaScore
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -13712,7 +13734,7 @@ MonoBehaviour:
           networkSync: 0
           value: 25
         - useVariable: 1
-          name: Drag&DropScore
+          name: FruitNinjaScore
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -13724,7 +13746,7 @@ MonoBehaviour:
           networkSync: 0
           value: 50
         - useVariable: 1
-          name: Drag&DropScore
+          name: FruitNinjaScore
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -15136,7 +15158,7 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams:
         - useVariable: 1
-          name: Drag&DropScore
+          name: FruitNinjaScore
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -23673,7 +23695,7 @@ MonoBehaviour:
           value: 1
         fsmIntParams:
         - useVariable: 1
-          name: Drag&DropScore
+          name: FruitNinjaScore
           tooltip: 
           showInInspector: 0
           networkSync: 0
