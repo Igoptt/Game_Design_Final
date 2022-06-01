@@ -11625,7 +11625,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - FINISHED
+        - 
         byteData: 001500000000
         arrayParamSizes: 
         arrayParamTypes: []
@@ -13140,7 +13140,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - FINISHED
+        - 
         byteData: 001500000000
         arrayParamSizes: 
         arrayParamTypes: []
@@ -22690,7 +22690,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1768563532}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.95, y: 3.519, z: 4.8322}
+  m_LocalPosition: {x: 9.95, y: 3.519, z: 4.586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28338,7 +28338,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - FINISHED
+        - 
         byteData: 001500000000
         arrayParamSizes: 
         arrayParamTypes: []
@@ -29823,7 +29823,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - FINISHED
+        - 
         byteData: 001500000000
         arrayParamSizes: 
         arrayParamTypes: []
@@ -29963,6 +29963,15 @@ MonoBehaviour:
       isSystemEvent: 1
       isGlobal: 0
     - name: MOUSE UP
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: CorrectPlace
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: WrongPlace
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
     globalTransitions:
@@ -32426,7 +32435,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 1098.6016
         y: 171.25
-        width: 107
+        width: 107.6
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -32770,7 +32779,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - FINISHED
+        - 
         byteData: 001500000000
         arrayParamSizes: 
         arrayParamTypes: []
@@ -32860,7 +32869,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 913.40625
         y: 176.42188
-        width: 112
+        width: 111.6
         height: 16
       isBreakpoint: 0
       isSequence: 0
@@ -32910,6 +32919,15 @@ MonoBehaviour:
       isSystemEvent: 1
       isGlobal: 0
     - name: MOUSE UP
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: CorrectPlace
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: WrongPlace
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
     globalTransitions:
@@ -33061,7 +33079,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2024345859082033179}
   m_LocalRotation: {x: -0.04021127, y: -0.38032195, z: -0.0971504, w: 0.918858}
-  m_LocalPosition: {x: 9.95, y: 3.519, z: 4.8322}
+  m_LocalPosition: {x: 9.95, y: 3.519, z: 4.586}
   m_LocalScale: {x: 0.059999995, y: 0.060000002, z: 0.059999995}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -34239,7 +34257,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - FINISHED
+        - 
         byteData: 001500000000
         arrayParamSizes: 
         arrayParamTypes: []
@@ -34329,7 +34347,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 61.40625
         y: 114.421875
-        width: 112
+        width: 111.6
         height: 16
       isBreakpoint: 0
       isSequence: 0
@@ -35717,7 +35735,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - FINISHED
+        - 
         byteData: 001500000000
         arrayParamSizes: 
         arrayParamTypes: []
@@ -37186,7 +37204,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - FINISHED
+        - 
         byteData: 001500000000
         arrayParamSizes: 
         arrayParamTypes: []
@@ -38655,7 +38673,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - FINISHED
+        - 
         byteData: 001500000000
         arrayParamSizes: 
         arrayParamTypes: []
@@ -40458,7 +40476,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - FINISHED
+        - 
         byteData: 001500000000
         arrayParamSizes: 
         arrayParamTypes: []
