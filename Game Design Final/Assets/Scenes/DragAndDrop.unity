@@ -4485,6 +4485,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6f599e393c694dd469b4c8a710d719dc, type: 2}
+    - target: {fileID: 64752373678406200, guid: af9cdd9ba10234507875bb32ff50333b,
+        type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af9cdd9ba10234507875bb32ff50333b, type: 3}
 --- !u!4 &553197051 stripped
@@ -6598,11 +6603,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: e40b5e93ab0944c83bdf360061b0dd37, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.0459995
+      value: 2.927
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: e40b5e93ab0944c83bdf360061b0dd37, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.561
+      value: 5.676
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: e40b5e93ab0944c83bdf360061b0dd37, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10105,7 +10110,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1668327824
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10117,7 +10122,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.8, y: 0, z: 1}
+  m_Size: {x: 0.5, y: 0, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1668327825
 Transform:
@@ -10127,7 +10132,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1668327823}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.783, y: 3.581, z: 5.433}
+  m_LocalPosition: {x: 3.76, y: 3.581, z: 5.433}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10308,7 +10313,7 @@ PrefabInstance:
     - target: {fileID: 9204874739234179443, guid: 31f92709feb13b24090c78c630c3954b,
         type: 3}
       propertyPath: m_Name
-      value: BadFOOD 6
+      value: GoodFOOD 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f92709feb13b24090c78c630c3954b, type: 3}
@@ -10434,7 +10439,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4539135129340528, guid: 0b50edd1ab1ea9c4ba8edc42f1b15181, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.3087537
+      value: 1.9553758
       objectReference: {fileID: 0}
     - target: {fileID: 4539135129340528, guid: 0b50edd1ab1ea9c4ba8edc42f1b15181, type: 3}
       propertyPath: m_LocalScale.z
@@ -10446,11 +10451,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4539135129340528, guid: 0b50edd1ab1ea9c4ba8edc42f1b15181, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.903
+      value: 2.905
       objectReference: {fileID: 0}
     - target: {fileID: 4539135129340528, guid: 0b50edd1ab1ea9c4ba8edc42f1b15181, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.491
+      value: 5.594
       objectReference: {fileID: 0}
     - target: {fileID: 4539135129340528, guid: 0b50edd1ab1ea9c4ba8edc42f1b15181, type: 3}
       propertyPath: m_LocalRotation.w
